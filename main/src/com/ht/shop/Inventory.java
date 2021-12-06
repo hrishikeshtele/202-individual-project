@@ -2,10 +2,10 @@ package com.ht.shop;
 
 public class Inventory {
 
-  private final String category;
-  private final String item;
-  private final Integer quantity;
-  private final Double price;
+  private String category;
+  private String item;
+  private Integer quantity;
+  private Double price;
 
   public Inventory(String category, String item, Integer quantity, Double price) {
     this.category = category;

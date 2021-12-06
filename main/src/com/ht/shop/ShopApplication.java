@@ -19,8 +19,9 @@ public class ShopApplication {
     // Validate and read input CSV file
     Path inventoryPath = Paths.get(args[0]);
     Path orderPath = Paths.get(args[1]);
+    Path cardPath = Paths.get(args[2]);
     INVENTORIES = FileReader.readCSVInitInventory(inventoryPath.toString());
     Order order = FileReader.readCSVOrder(orderPath.toString());
-    Cart.validateAndPlaceOrder(order);
+    Cart.validateAndPlaceOrder(order,cardPath.toString());
   }
 }

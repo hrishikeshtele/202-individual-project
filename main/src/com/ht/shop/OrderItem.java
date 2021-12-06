@@ -18,4 +18,8 @@ public class OrderItem {
   public Integer getQuantity() {
     return quantity;
   }
+
+  public String getCardNumber() {
+    return cardNumber;
+  }
 }
