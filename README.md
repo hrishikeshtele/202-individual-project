@@ -38,8 +38,8 @@ java com.ht.shop.ShopApplication "Path for data.csv file" "Path for input.csv fi
 ## UML Class Diagram 
 ![Class Diagram](./UML-class.jpeg)
 
-## UML Class Diagram
+## Success Output
 ![Success](./success.png)
 
-## UML Class Diagram
+## Error Output
 ![Error](./error.png)
